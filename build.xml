@@ -48,7 +48,6 @@
       <java classname="clojure.lang.Compile" fork="true" failonerror="true" classpathref="project.classpath">
       	<classpath>
       	<pathelement location="src"/>
-      		<pathelement location="tmp/classes"/>
       	</classpath>
         <sysproperty key="clojure.compile.path" value="src" />
          <arg value="play.modules.clojure.clojureplugin" />
