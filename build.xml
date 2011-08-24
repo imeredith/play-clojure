@@ -49,7 +49,7 @@
       	<classpath>
       	<pathelement location="src"/>
       	</classpath>
-        <sysproperty key="clojure.compile.path" value="tmp/class" />
+        <sysproperty key="clojure.compile.path" value="tmp/classes" />
          <arg value="play.modules.clojure.clojureplugin" />
        </java>
     </target>
